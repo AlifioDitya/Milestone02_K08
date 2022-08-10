@@ -1,7 +1,7 @@
 # MoneyCheck
 Milestone #2 Kelompok 8
 
-# Anggota Kelompok dan Pembagian Tugas:
+## Anggota Kelompok dan Pembagian Tugas:
 Kelvin Rayhan Alkarim (16521496)
 
 Naufal Syifa Firdaus (16521243)
@@ -26,4 +26,4 @@ Raynard Tanadi (16521455)
 
 Enrique Alifio Ditya (16521253)
 
-# Deskripsi Solusi
+## Deskripsi Solusi
