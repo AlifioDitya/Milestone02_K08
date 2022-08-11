@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+}
+
+.background {
+    margin: auto;
+    background-color: #222222;
+    position: center;
+    width: 450px;
+    max-width: 450px;
+}
+
+p {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+    padding-left: 6px;
+}
+
+h2 {
+    color: aliceblue;
+    padding-left: 6px;
+}
+
+
+.topBar {
+    margin: auto;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    background-color: #222222;
+    position: center;
+    width: 450px;
+    max-width: 450px;
+    position: center;
+    
+}
+
+.botBar {
+    margin: auto;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    background-color: #222222;
+    position: center;
+    width: 450px;
+    max-width: 450px;
+    position: center;
+    
+}
+
+.barButton {
+    background-color: transparent;
+    border: none;
+    margin : 20px;
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.5s;
+    color: aliceblue;
+    border-radius: 20%;
+    
+}
+
+.barButton:hover {
+    background-color: aliceblue;
+    color: #444444;
+}
+
+.botButton {
+    background-color: transparent;
+    border: none;
+    margin : 20px;
+    width: 60px;
+    height: 60px;
+    transition-duration: 0.5s;
+    color: aliceblue;
+    border-radius: 20%;
+    
+}
+
+.botButton:hover {
+    color: #444444;
+    background-color: #ffff44;
+}
+
+#addButton {
+    background-color: transparent;
+    border: none;
+    position: center;
+    width: 60px;
+    height: 60px;
+    transition-duration: 0.5s;
+    color: #ffff44;
+    border-radius: 100%;
+    
+}
+
+#addButton:hover {
+    color: yellowgreen;
+    background-color: aliceblue;
+}
+
+.bal {
+    margin: auto;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    background-color: #222222;
+    position: center;
+    width: 350px;
+    max-width: 350px;
+    position: center;
+}
