@@ -7,18 +7,31 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
-    <header>
-        <div class="title">
-            <img src="./assets/binance.png">
-            <h1>MoneyCheck</h1>
-        </div>
-    </header>
-    <main>
-
-    </main>
+    <div class="center">
+        <h1>Welcome</h1>
+        <form method="post" action="home.html">
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="pass">Forgot Password?</div>
+            <a href="home.html">
+            <input type="submit" value="Sign in">
+            </a>
+            <div class="signup_link">
+                Dont have an account? <a href="#">Sign up</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
