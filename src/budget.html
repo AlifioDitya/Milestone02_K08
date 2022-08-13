@@ -1,90 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css">
-        <style>
-            .navbar {
-                overflow: hidden;
-                background-color: #333;
-                position: fixed;
-                bottom: 0;
-                width: 480px;
-            }
-
-            .navbar a {
-                float: left;
-                display: block;
-                color: #f2f2f2;
-                text-align: center;
-                padding: 14px 24px;
-                text-decoration: none;
-                font-size: 17px;
-            }
-
-            .navbar a:hover {
-                background: #ddd;
-                color: black;
-            }
-
-            .button1 {
-              border: 2px solid #ffcd38;
-              color: #ffcd38;
-              padding: 12px 32px;
-              text-align: center;
-              text-decoration: none;
-              display: inline-block;
-              font-size: 16px;
-              margin: 4px 2px;
-              cursor: pointer;
-              background-color: black;
-              border-radius: 12px;
-            }
-            .button1:hover {
-            background-color: #ffcd38;
-            color: white;
-            }
-            .button2 {
-                border: none;
-                color: #bfd1ff;
-                background-color: #1b1913;
-                margin-left: 329px;
-            }
-            .button3 {
-                border: none;
-                color: #bfd1ff;
-                background-color: #1b1913;
-                margin-left: 293px;
-            }
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-            }
-            </style>            
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/budget.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap" rel="stylesheet">          
+        <title>Budget</title>
     </head>
     <body>
+        <div class="center">
+            <h2 style="color:white;">Your daily budget is</h2> 
+            <h2 style="color:#ffc71f; font-size: 35px;"><a class="num_budget">Rp150.000,00</a></h2>
+            <h3 style="color:white;">for this month.</h3>
+            <button class="button1">
+                Edit plan
+            </button>
+            <p></p>
+            <a style="color:#ffc71f; font-size: 14px;">Your Expenses</a> 
+            <button class="button2">See all</button>
+            <img src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/horizontal-bar-graph_ver_1.jpg" style="width: 500px;">
+            <p></p>
+            <a style="color:#ffc71f; font-size: 14px;">Budget per Category</a> 
+            <button class="button3">See all</button>
+        </div>
         <div class="navbar">
-            <a href="#home">Home</a>
-            <a href="#history">History</a>
-            <a href="#transaction">+</a>
-            <a href="#planning">Planning</a> 
-            <a href="#account">Account</a>
-          </div>
-        <h2 style="color:white;">Your daily budget is</h2> 
-        <h1 style="color:#ffc71f; font-size: 35px;"><a class="num_budget">Rp150.000,00</a></h1>
-        <h3 style="color:white;">for this month.</h3>
-        <button class="button1">
-            Edit plan
-        </button>
-        <p></p>
-        <a style="color:#ffc71f; font-size: 14px;">Your Expenses</a> 
-        <button class="button2">See all</button>
-        <img src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/horizontal-bar-graph_ver_1.jpg" style="width: 480px;">
-        <p></p>
-        <a style="color:#ffc71f; font-size: 14px;">Budget per Category</a> 
-        <button class="button3">See all</button>
-        <p></p>
-        <p>hello</p>
+            <a href="#home"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bxs-home nav__icon'></i>
+                </div>
+                <div class="nav-text"> Home
+                </div>
+            </div></a>
+            <a href="#history"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bx-history nav__icon'></i>
+                </div>
+                <div class="nav-text"> History
+                </div>
+            </div></a>
+            <a1 href="#transaction"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bxs-plus-circle nav__icon'></i>
+                </div>
+            </div></a1>
+            <a href="#planning"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bxs-wallet-alt nav__icon'></i>
+                </div>
+                <div class="nav-text"> Planning
+                </div>
+            </div></a>
+            <a href="#account"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bxs-user-account nav__icon'></i>
+                </div>
+                <div class="nav-text"> Account
+                </div>
+            </div></a>
+        </div>
     </body>
 </html>
