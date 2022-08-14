@@ -19,17 +19,18 @@
             </a>
         </nav>
     </header>
-    <main>
+    <main class = "center">
         <section class="container section section__height" id="you_have">
-            <h2 style="color:white;"><a class="section_title">You have</a></h2><br>
-            <h2 style="color:#ffc71f; font-size: 35px;"><a class="section_body">Rp1.000.000.00</a></h2><br>
-            <h3 class="section_body">in your balance</h3><br>
+            <h2 style="color:white;"><a class="section_title">You have</a></h2>
+            <h2 style="color:#ffc71f; font-size: 35px;"><a class="section_body">Rp1.000.000.00</a></h2>
+            <h3 style="color:white; font-size: 25px;"><a class="section_body">in your balance</a></h3>
         </section>
 
         <section class="container section section__height" id="recent_transactions">
-            <h5 class="section_title">Recent Transactions</h5>
-            <p class="section_body">see all</p>
-            <img src="assets/image1.jpg"></img>
+            <a style="color:#feb027">Recent Transactions</a>
+            <button class="button2" >See all</button>
+            <img src="assets/image1.jpg">
+            </img>
         </section>
 
         <section class="container section section__height" id="spending">
@@ -37,46 +38,87 @@
             <p class="section_body">see all</p>
         </section>
         
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#home" class="nav__link">
-                        <i class='bx bxs-home nav__icon'></i>
-                        <span class="nav__name">Home</span>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a href="#history" class="nav__link">
-                        <i class='bx bx-history nav__icon' ></i>
-                        <span class="nav__name">History</span>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a href="#add" class="nav__link">
-                        <i class='bx bxs-plus-circle nav__icon' ></i>
-                        <span class="nav__name"></span>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a href="#planning" class="nav__link">
-                        <i class='bx bxs-wallet-alt nav__icon' ></i>
-                        <span class="nav__name">Planning</span>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a href="#account" class="nav__link">
-                        <i class='bx bxs-user-account nav__icon' ></i>
-                        <span class="nav__name">Account</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        
     </main>
+
+    <ul>
+        <div class="navbar">
+            <a href="#home"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bxs-home nav__icon'></i>
+                </div>
+                <div class="nav-text"> Home
+                </div>
+            </div></a>
+            <a href="#history"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bx-history nav__icon'></i>
+                </div>
+                <div class="nav-text"> History
+                </div>
+            </div></a>
+            <a1 href="#transaction"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bxs-plus-circle nav__icon'></i>
+                </div>
+            </div></a1>
+            <a href="#planning"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bxs-wallet-alt nav__icon'></i>
+                </div>
+                <div class="nav-text"> Planning
+                </div>
+            </div></a>
+            <a href="#account"><div class="nav-button">
+                <div class="nav-logo"><i class='bx bxs-user-account nav__icon'></i>
+                </div>
+                <div class="nav-text"> Account
+                </div>
+            </div></a>
+        </div>
+    </ul>
     <!--========== MAIN JS =========-->
+
+    <!--========== nav button lama, SILAKAN UNCOMMENT KALAU MW UPDATE INI :) 
+
+    <div class="nav__menu" id="nav-menu"> 
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#home" class="nav__link">
+                    <i class='bx bxs-home nav__icon'></i>
+                    <span class="nav__name">Home</span>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#history" class="nav__link">
+                    <i class='bx bx-history nav__icon' ></i>
+                    <span class="nav__name">History</span>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#add" class="nav__link">
+                    <i class='bx bxs-plus-circle nav__icon' ></i>
+                    <span class="nav__name"></span>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#planning" class="nav__link">
+                    <i class='bx bxs-wallet-alt nav__icon' ></i>
+                    <span class="nav__name">Planning</span>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#account" class="nav__link">
+                    <i class='bx bxs-user-account nav__icon' ></i>
+                    <span class="nav__name">Account</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    nav_button_beggin =========-->
+
+    
     <script src="main.js"></script>
 </body>
 </html>
+
