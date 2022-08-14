@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/planning.css">
+        <link rel="stylesheet" href="./css/homepage.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,23 +15,42 @@
     </head>
 
     <body>
-        <h1 class="planningh1">Plan your expenses and savings</h1>
-        <ul class="list-plan">
-            
-            <li class="plan" href="budget.html">
-                <i class="material-icons">insert_chart</i>
-                <div class="fr">
-                    <a class="list-ttl" href="budget.html">Budget</a>
-                    <a class="exp-of-ttl" href="budget.html">Manage your budget in one month and track your daily expenses.</a>
-                </div>
-                <span class="material-icons" href="budget.html">chevron_right</span>
-            </li>
-            <li class="plan" href="savings1.html">
-                <i class="material-icons" href="savings1.html">shopping_bag</i>
-                <div class="fr" >
-                    <a class="list-ttl" href="savings1.html">Saving goals</a>
-                    <a class="exp-of-ttl" href="savings1.html">Keep track of your income and expense to save up for your needs.</a>
-                </div>
-                <span class="material-icons" href="savings1.html">chevron_right</span>
-            </li>
-        </ul>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">
+                <span class="front-logo">Money</span><span class="back-logo">Check</span>
+            </label>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a class="active" href="planning.html">Planning</a></li>
+                <li><a href="login.html">Profile</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <h1 class="planningh1">Plan your expenses and savings</h1>
+            <ul class="list-plan">
+                
+                <li class="plan" href="budget.html">
+                    <i class="material-icons">insert_chart</i>
+                    <div class="fr">
+                        <a class="list-ttl" href="budget.html">Budget</a>
+                        <a class="exp-of-ttl" href="budget.html">Manage your budget in one month and track your daily expenses.</a>
+                    </div>
+                    <span class="material-icons" href="budget.html">chevron_right</span>
+                </li>
+                <li class="plan" href="savings1.html">
+                    <i class="material-icons" href="savings1.html">shopping_bag</i>
+                    <div class="fr" >
+                        <a class="list-ttl" href="savings1.html">Saving goals</a>
+                        <a class="exp-of-ttl" href="savings1.html">Keep track of your income and expense to save up for your needs.</a>
+                    </div>
+                    <span class="material-icons" href="savings1.html">chevron_right</span>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
