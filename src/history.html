@@ -30,7 +30,7 @@
             <h2>per month.</h2>
         </div>
         <div class="topBar" style="padding-bottom: 15px;">
-            <button class="navButton" style="width: auto; padding-left: 20px; color: #ffff44;">
+            <button class="navButton" style="width: auto; padding-left: 20px; color: #ffc71f;">
                 <i class="fa-solid fa-angle-left"></i>
             </button>
             <button class="navButton" id="btn1">
@@ -44,7 +44,35 @@
             </button>
         </div>
         <div class="scrollable">
-            <iframe src="/src/historyIFrame/thisMonth.html" width="449 px"></iframe>
+            <h3>cashflow</h3>
+            <table style="padding-bottom: 20px; width: 60%;">
+                <tr>
+                    <th class="tb1">Starting Balance</th>
+                    <th class="tb1">End Balance</th>
+                </tr>
+                <tr>
+                    <td class="tb1" style="color: white;">
+                        <p id="stBal" style="color: white;">-</p>
+                    </td>
+                    <td class="tb1">
+                        <p id="enBal" style="color: white;">-</p>
+                    </td>
+                </tr>
+            </table>
+            <table style="padding-bottom: 20px;">
+                <tr>
+                    <th class="tb2">Inflow</th>
+                    <td id="inFlw" class="td2" style="color: rgb(46, 150, 46);">-</td>
+                </tr>
+                <tr>
+                    <th class="tb2">Outflow</th>
+                    <td id="outFlw" class="td2" style="color: rgb(170, 45, 45);">-</td>
+                </tr>
+                <tr>
+                    <th class="tb2">Net</th>
+                    <td id="net" class="td2" style="color: rgb(64, 64, 173);">-</td>
+                </tr>
+            </table>
         </div>
         <div class="botBar">
             <button class="botButton">
