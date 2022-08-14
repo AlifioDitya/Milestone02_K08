@@ -1,0 +1,268 @@
+
+
+header {
+    height: 250px;
+    color: #1b1913;
+}
+
+
+body {
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+    max-width: 480px;
+    background-color:#1b1913;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 27%;
+}
+
+.title {
+    display: flex;
+    margin: auto;
+    padding: 4px;
+    color: #ffffff;
+    justify-content: center
+}
+
+.svngs-h1 {
+    width: 282px;
+    height: 64px;   
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.num_goals {
+    color: #FEB027;
+}
+
+.addgoal {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    background-color: #1b1913;
+    gap: 12px;
+    width: 116px;
+    height: 37px;
+    border: 1px solid #FBCF29;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+    align-items: center;
+    color: #FBCF29;
+}
+
+.addgoal:hover {
+    background-color: #FBCF29;
+    color: #1b1913;
+  }
+
+/* .addtxt{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100;
+    line-height: 16px;
+    display: flex;
+    letter-spacing: -0.04em;
+    align-items: center;
+    color: #FBCF29;
+} */
+
+.text1 {
+    width: 171px;
+    height: 14px;
+
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+
+    color: #FEB027;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 20px;
+
+    width: 354px;
+    height: 315px;
+}
+
+.in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 70px;
+    width: 352px;
+    height: 14px;
+    font-size: 13px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 354px;
+    height: 281px;
+}
+
+.fr2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 0px;
+    width: 278px;
+    height: 14px;
+}
+
+.text4{
+    width: 98px;
+    height: 10px;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.material-icons{
+    width: 35px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+
+
+.edit{
+   color: #66ACFF;
+   font-style: normal;
+   text-decoration: none;
+}
+
+.goal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 14px;
+    width: 354px;
+    height: 83px;
+    background: #323232;
+    border-radius: 16px;
+}
+
+.goal:hover{
+    background: #292929; 
+}
+
+.text3{
+    width: 100px;
+    height: 14px;
+
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+
+    color: #FEB027;
+}
+
+
+.text2{
+    width: 100px;
+    height: 20px;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    background: none;
+}
+
+.text2:hover{
+    color: rgba(255, 255, 255, 0.922);
+}
+
+.all-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.complete{
+    background: #FEB027;
+    border-radius: 10px;
+}
+
+.complete-light{
+    border-radius: 10px;
+}
+
+.w3-green{
+    background: #38C976;
+    opacity: 100;
+    border-radius: 10px;
+}
+
+.uncompleted-light{
+    background: #1092373c;
+    border-radius: 10px;
+}
+
