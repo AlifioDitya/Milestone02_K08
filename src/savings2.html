@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1 class="usaved">You saved</h1>
-        <h1 class="duit1">Rp6.580.000,00</h1>
-        <h1 class="outof">out of</h1>
-        <h1 class="duit2">Rp14.000.000,00</h1>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/savings2.css">
+        <link rel="stylesheet" href="./css/homepage.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap"> 
+        <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
     </head>
-    <body>
-        <div class="container1">
-            <a class="goalttl">New Ipad</a>
-            <div class="c100 p34 center">
-                <span>34%</span>
-                <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
+    <body>        
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">
+                <span class="front-logo">Money</span><span class="back-logo">Check</span>
+            </label>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a class="active" href="planning.html">Planning</a></li>
+                <li><a href="login.html">Profile</a></li>
+            </ul>
+        </nav>
+
+        <div class="all-svng">
+            <h1 class="usaved">You saved</h1>
+            <h1 class="saved">Rp6.580.000,00</h1>
+            <h1 class="outof">out of</h1>
+            <h1 class="total">Rp14.000.000,00</h1>
+            <div class="container1">
+                <a class="goalttl">New Ipad</a>
+                <div class="c100 p34 center">
+                    <span>34%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="b-r">
+                    <div class="before">
+                        <a class="texta">Before</a>
+                        <a class="textb">30 October 2022</a>
+                    </div>
+                    <div class="remaining">
+                        <a class="texta">Remaining</a>
+                        <a class="textb">Rp7.420.000,00</a>
+                    </div>
+                </div>
+                <div class="cont-dl">
+                    <a class="textc">61 days left</a>
                 </div>
             </div>
-            <div class="b-r">
-                <div class="before">
-                    <a class="texta">Before</a>
-                    <a class="textb">30 October 2022</a>
-                </div>
-                <div class="remaining">
-                    <a class="texta">Remaining</a>
-                    <a class="textb">Rp7.420.000,00</a>
-                </div>
+            <div class="container+">
+                <button value="+"> + </button>
             </div>
-            <div class="cont-dl">
-                <a class="textc">61 days left</a>
-            </div>
-        </div>
-        <div class="container+">
-            <button value="+"> + </button>
-        </div>
 
         
 
     </body>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#history">History</a></li>
-        <li><a href="#add">+</a></li>
-        <li><a href="#planning">Planning</a></li>
-        <li><a href="#account">Account</a></li>
-    </ul>
 </html>
