@@ -64,6 +64,7 @@ h2 {
 .barButton:hover {
     background-color: aliceblue;
     color: #444444;
+    /* cursor: pointer; */
 }
 
 .botButton {
@@ -81,6 +82,7 @@ h2 {
 .botButton:hover {
     color: #444444;
     background-color: #ffff44;
+    cursor: pointer;
 }
 
 #addButton {
@@ -96,8 +98,9 @@ h2 {
 }
 
 #addButton:hover {
-    color: yellowgreen;
+    color: #444444;
     background-color: aliceblue;
+    cursor: pointer;
 }
 
 .bal {
@@ -109,4 +112,35 @@ h2 {
     width: 350px;
     max-width: 350px;
     position: center;
+}
+
+.navButton {
+    background-color: transparent;
+    border: none;
+    margin : 0;
+    margin-top: 20px;
+    width: 130px;
+    transition-duration: 0.5s;
+    color: aliceblue;
+    border-radius: 0;
+    font-size: 17px;
+}
+
+.navButton:hover {
+    cursor: pointer;
+}
+
+.navButton.clicked {
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: #ffff44;
+}
+
+.navButton.clicked:hover {
+    cursor: default;
+}
+
+iframe {
+    height: 450px;
+    border-radius: 5%;
 }

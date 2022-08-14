@@ -29,29 +29,23 @@
             <br>
             <h2>per month.</h2>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <div class="topBar" style="padding-bottom: 15px;">
+            <button class="navButton" style="width: auto; padding-left: 20px; color: #ffff44;">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button class="navButton" id="btn1">
+                Last Month
+            </button>
+            <button class="navButton clicked" id="btn2">
+                This Month
+            </button>
+            <button class="navButton" id="btn3">
+                Future
+            </button>
+        </div>
+        <div class="scrollable">
+            <iframe src="/src/historyIFrame/thisMonth.html" width="449 px"></iframe>
+        </div>
         <div class="botBar">
             <button class="botButton">
                 <i class="fa-solid fa-house fa-2x"></i>
@@ -74,5 +68,6 @@
             </button>
         </div>
     </div>
+    <script src="/src/js/history.js"></script>
 </body>
 </html>
