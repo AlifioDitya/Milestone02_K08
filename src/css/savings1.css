@@ -1,15 +1,6 @@
-
-
 header {
     height: 250px;
     color: #1b1913;
-}
-
-
-body {
-    margin: 0;
-    font-family: 'Karla', sans-serif;
-    background-color:#1b1913;
 }
 
 .all-svng {
@@ -182,8 +173,6 @@ body {
     color: rgba(255, 255, 255, 0.85);
 }
 
-
-
 .edit{
    color: #66ACFF;
    font-style: normal;
@@ -270,3 +259,6 @@ body {
     border-radius: 10px;
 }
 
+.space {
+    margin: 24px;
+}
