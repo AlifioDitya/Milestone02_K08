@@ -27,123 +27,127 @@
         </label>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a class="active" href="planning.html">Planning</a></li>
+            <li><a class="active" href="history.html">History</a></li>
+            <li><a href="planning.html">Planning</a></li>
             <li><a href="login.html">Profile</a></li>
         </ul>
     </nav>
-    <div class="background">
-        <div class="bal">
-            <h1>Your Balance Grows</h1>
-            <h2>+6.09%</h2>
-            <a class="permonth">per month.</a>
+    <section style="height: 140vh;">
+        <div class="background">
+            <div class="bal">
+                <h1>Your Balance Grows</h1>
+                <div class="spacesmall"></div>
+                <h2>+6.09%</h2>
+                <div class="space"></div>
+                <a class="permonth">per month.</a>
+            </div>
+            <div class="topBar" style="padding-bottom: 15px;">
+                <button class="navButton" style="width: auto; padding-left: 20px; color: #ffc71f;">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <button class="navButton" id="btn1">
+                    Last Month
+                </button>
+                <button class="navButton-clicked" id="btn2">
+                    This Month
+                </button>
+                <button class="navButton" id="btn3">
+                    Future
+                </button>
+            </div>
+            <div class="inner-box">
+                <h3>Cashflow</h3>
+                <table style="padding-bottom: 20px; width: 60%;">
+                    <tr>
+                        <th class="tb1">Starting Balance</th>
+                        <th class="tb1">End Balance</th>
+                    </tr>
+                    <tr>
+                        <td class="tb1">
+                            <p class="stBal">Rp1.000.000,00</p>
+                        </td>
+                        <td class="tb1">
+                            <p class="stBal">Rp3.500.000,00</p>
+                        </td>
+                    </tr>
+                </table>
+                <table style="padding-bottom: 20px;">
+                    <tr>
+                        <th class="tb2">Inflow</th>
+                        <td id="inFlw" class="td2" style="color: #52C357;">Rp15.000.000,00</td>
+                    </tr>
+                    <tr>
+                        <th class="tb2">Outflow</th>
+                        <td id="outFlw" class="td2" style="color: #F24949;">Rp12.500.000,00</td>
+                    </tr>
+                    <tr>
+                        <th class="tb2">Net</th>
+                        <td id="net" class="td2" style="color: #66ACFF;">Rp2.500.000,00</td>
+                    </tr>
+                </table>
+                <h3>Transactions List</h3>
+                <table style="width: 100%;">
+                    <tr class="spaceUnder">
+                        <td class="tb2">
+                            <i class="material-icons">fastfood</i>
+                        </td>
+                        <td class="td3">
+                            <p>Food and beverages</p>
+                            <p id="Date">31 July 2022</p>
+                        </td>
+                        <td class="td2">
+                            <p id="fnbData" style="color: #F24949;">Rp50.000,00</p>
+                        </td>
+                    </tr>
+                    <tr class="spaceUnder">
+                        <td class="tb2">
+                            <i class="material-icons">sync_alt</i>
+                        </td>
+                        <td class="td3">
+                            <p>Transfer</p>
+                            <p id="Date">28 July 2022</p>
+                        </td>
+                        <td class="td2">
+                            <p id="tfData" style="color: #F24949;">Rp250.000,00</p>
+                        </td>
+                    </tr>
+                    <tr class="spaceUnder">
+                        <td class="tb2">
+                            <i class="material-icons">paid</i>
+                        </td>
+                        <td class="td3">
+                            <p>Salary</p>
+                            <p id="Date">4 July 2022</p>
+                        </td>
+                        <td class="td2">
+                            <p id="salData" style="color: #52C357;">Rp15.000.000,00</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="botBar">
+                <button class="botButton">
+                    <!-- <i class="fa-solid fa-house fa-2x"></i>
+                    Home -->
+                </button>
+                <button class="botButton" style="margin-left: 0;">
+                    <!-- <i class="fa-solid fa-clock-rotate-left fa-2x"></i>
+                    History -->
+                </button>
+                <button id="addButton">
+                    <!-- <i class="fa-solid fa-circle-plus fa-4x"></i> -->
+                </button>
+                <button class="botButton">
+                    <!-- <i class="fa-solid fa-wallet fa-2x"></i>
+                    Planning -->
+                </button>
+                <button class="botButton" style="margin-left: 0;">
+                    <!-- <i class="fa-solid fa-user fa-2x"></i>
+                    Account -->
+                </button>
+            </div>
         </div>
-        <div class="topBar" style="padding-bottom: 15px;">
-            <button class="navButton" style="width: auto; padding-left: 20px; color: #ffc71f;">
-                <i class="fa-solid fa-angle-left"></i>
-            </button>
-            <button class="navButton" id="btn1">
-                Last Month
-            </button>
-            <button class="navButton clicked" id="btn2">
-                This Month
-            </button>
-            <button class="navButton" id="btn3">
-                Future
-            </button>
-        </div>
-        <div class="scrollable">
-            <h3>Cashflow</h3>
-            <table style="padding-bottom: 20px; width: 60%;">
-                <tr>
-                    <th class="tb1">Starting Balance</th>
-                    <th class="tb1">End Balance</th>
-                </tr>
-                <tr>
-                    <td class="tb1">
-                        <p class="stBal">Rp1.000.000,00</p>
-                    </td>
-                    <td class="tb1">
-                        <p class="stBal">Rp3.500.000,00</p>
-                    </td>
-                </tr>
-            </table>
-            <table style="padding-bottom: 20px;">
-                <tr>
-                    <th class="tb2">Inflow</th>
-                    <td id="inFlw" class="td2" style="color: #52C357;">Rp15.000.000,00</td>
-                </tr>
-                <tr>
-                    <th class="tb2">Outflow</th>
-                    <td id="outFlw" class="td2" style="color: #F24949;">Rp12.500.000,00</td>
-                </tr>
-                <tr>
-                    <th class="tb2">Net</th>
-                    <td id="net" class="td2" style="color: #66ACFF;">Rp2.500.000,00</td>
-                </tr>
-            </table>
-            <h3>Transactions List</h3>
-            <table style="width: 100%;">
-                <tr class="spaceUnder">
-                    <td class="tb2">
-                        <i class="material-icons">fastfood</i>
-                    </td>
-                    <td class="td3">
-                        <p>Food and beverages</p>
-                        <p id="Date">31 July 2022</p>
-                    </td>
-                    <td class="td2">
-                        <p id="fnbData" style="color: #F24949;">Rp50.000,00</p>
-                    </td>
-                </tr>
-                <tr class="spaceUnder">
-                    <td class="tb2">
-                        <i class="material-icons">sync_alt</i>
-                    </td>
-                    <td class="td3">
-                        <p>Transfer</p>
-                        <p id="Date">28 July 2022</p>
-                    </td>
-                    <td class="td2">
-                        <p id="tfData" style="color: #F24949;">Rp250.000,00</p>
-                    </td>
-                </tr>
-                <tr class="spaceUnder">
-                    <td class="tb2">
-                        <i class="material-icons">paid</i>
-                    </td>
-                    <td class="td3">
-                        <p>Salary</p>
-                        <p id="Date">4 July 2022</p>
-                    </td>
-                    <td class="td2">
-                        <p id="salData" style="color: #52C357;">Rp15.000.000,00</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="botBar">
-            <button class="botButton">
-                <!-- <i class="fa-solid fa-house fa-2x"></i>
-                Home -->
-            </button>
-            <button class="botButton" style="margin-left: 0;">
-                <!-- <i class="fa-solid fa-clock-rotate-left fa-2x"></i>
-                History -->
-            </button>
-            <button id="addButton">
-                <!-- <i class="fa-solid fa-circle-plus fa-4x"></i> -->
-            </button>
-            <button class="botButton">
-                <!-- <i class="fa-solid fa-wallet fa-2x"></i>
-                Planning -->
-            </button>
-            <button class="botButton" style="margin-left: 0;">
-                <!-- <i class="fa-solid fa-user fa-2x"></i>
-                Account -->
-            </button>
-        </div>
-    </div>
+    </section>
 
     <script src="/src/js/history.js"></script>
 </body>

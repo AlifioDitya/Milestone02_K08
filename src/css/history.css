@@ -3,22 +3,12 @@ header {
     color: #1b1913;
 }
 
-
-body {
-    margin: 0;
-    font-family: 'Karla', sans-serif;
-    background-color:#1b1913;
-}
-
 .background {
-    overflow: hidden;
     margin: auto;
-    margin-top: 20px;
-    background-color: #1b1913;
+    padding-top: 40px;
     position: relative;
     width: 450px;
     max-width: 450px;
-    font-family: "karla", sans-serif;
 }
 
 p {
@@ -47,12 +37,11 @@ h1{
 
 .permonth {
     width: 357px;
-    height: 10px;
+    height: 40px;
     font-family: 'Karla', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 32px;
     letter-spacing: -0.04em;
     color: #FFFFFF;
 }
@@ -153,6 +142,7 @@ h2 {
 
 .navButton {
     background-color: transparent;
+    font-family: "Karla", sans-serif;
     border: none;
     margin : 0;
     margin-top: 20px;
@@ -167,13 +157,20 @@ h2 {
     cursor: pointer;
 }
 
-.navButton.clicked {
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: #ffc71f;
+.navButton-clicked {
+    font-weight: 700;
+    background-color: transparent;
+    font-family: "Karla", sans-serif;
+    border: none;
+    margin : 0;
+    margin-top: 20px;
+    width: 130px;
+    transition-duration: 0.5s;
+    color: #ffc71f;
+    font-size: 17px;
 }
 
-.navButton.clicked:hover {
+.navButton-clicked:hover {
     cursor: default;
 }
 
@@ -252,9 +249,8 @@ h3 {
     width: 80%;
 }
 
-.scrollable {
-    overflow-y: scroll;
-
+.inner-box {
+    overflow: hidden;
     position: absolute;
     width: 412px;
     height: 506px;
@@ -263,7 +259,7 @@ h3 {
     bottom: 1px;
     background: #312F2A;
     box-shadow: inset 3px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 30px 30px 30px 30px;
 }
 
 /* tr.spaceUnder>td {
@@ -274,4 +270,12 @@ h3 {
     width: 60%;
     vertical-align: middle;
     color:#e6e2e7;
+}
+
+.space {
+    margin: 24px;
+}
+
+.spacesmall {
+    margin: 8px;
 }
