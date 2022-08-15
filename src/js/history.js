@@ -1,39 +1,33 @@
 //DATA SECTOR
-let thisMonth = {
-    "StartingBalance" : 1000000,
-    "InFlow" : 15000000,
-    "OutFlow" : 12500000
+
+let data = {
+    "thisMonth" : {
+        "StartingBalance" : 1000000,
+        "InFlow" : 15000000,
+        "OutFlow" : 12500000,
+        "fnb" : {"Date":"6 December 2003","Data":"Rp2000000"},
+        "tf" : {"Date":"27 December 2003","Data":"Rp20000000"},
+        "Salary" : {"Date":"2 December 2003","Data":"Rp130000000"}
+    },
+    "lastMonth" : {
+        "StartingBalance" : 2000000,
+        "InFlow" : 17000000,
+        "OutFlow" : 12500000,
+        "fnb" : {"Date":"6 November 2003","Data":"Rp3000000"},
+        "tf" : {"Date":"27 November 2003","Data":"Rp1000000"},
+        "Salary" : {"Date":"2 November 2003","Data":"Rp123000000"}
+    },
+    "future" : {
+        "StartingBalance" : 5000000,
+        "InFlow" : 5000000,
+        "OutFlow" : 12500000,
+        "fnb" : {"Date":"-","Data":"-"},
+        "tf" : {"Date":"-","Data":"-"},
+        "Salary" : {"Date":"-","Data":"-"}
+    }
 };
 
-let lastMonth = {
-    "StartingBalance" : 2000000,
-    "InFlow" : 17000000,
-    "OutFlow" : 12500000
-};
 
-let future = {
-    "StartingBalance" : 5000000,
-    "InFlow" : 5000000,
-    "OutFlow" : 12500000
-};
-
-let tlThisMonth = {
-    "fnb" : {"Date":"6 December 2003","Data":"Rp2000000"},
-    "tf" : {"Date":"27 December 2003","Data":"Rp20000000"},
-    "Salary" : {"Date":"2 December 2003","Data":"Rp130000000"}
-}
-
-let tlLastMonth = {
-    "fnb" : {"Date":"6 November 2003","Data":"Rp3000000"},
-    "tf" : {"Date":"27 November 2003","Data":"Rp1000000"},
-    "Salary" : {"Date":"2 November 2003","Data":"Rp123000000"}
-}
-
-let tlFuture = {
-    "fnb" : {"Date":"-","Data":"-"},
-    "tf" : {"Date":"-","Data":"-"},
-    "Salary" : {"Date":"-","Data":"-"}
-}
 
 
 //DECLARATION
@@ -58,101 +52,41 @@ let salData = document.querySelector("#salData");
 
 
 //INITIATION
-sB.textContent = ("Rp"+thisMonth.StartingBalance.toString());
-infw.textContent = ("Rp"+thisMonth.InFlow.toString());
-outfw.textContent = ("Rp"+thisMonth.OutFlow.toString());
-net.textContent = ("Rp"+(thisMonth.InFlow-thisMonth.OutFlow).toString());
-eB.textContent = ("Rp"+(thisMonth.StartingBalance+(thisMonth.InFlow-thisMonth.OutFlow)).toString())
 
-tfDate.textContent = tlThisMonth.tf.Date;
-    tfData.textContent = tlThisMonth.tf.Data;
-
-    fnbDate.textContent = tlThisMonth.fnb.Date;
-    fnbData.textContent = tlThisMonth.fnb.Data;
-
-    salDate.textContent = tlThisMonth.Salary.Date;
-    salData.textContent = tlThisMonth.Salary.Data;
-
+listen(btn2,data,"thisMonth")
 
 
 //BUTTON FUNC
-btn.addEventListener("click", ()=>{
+function listen(button,data,monthKey) {
 
-    btn.classList.toggle("clicked");
+    button.classList.toggle("clicked");
     lastbtn.classList.toggle("clicked");
-    lastbtn = btn;
+    lastbtn = button;
 
-    sB.textContent = ("Rp"+lastMonth.StartingBalance.toString());
+    sB.textContent = ("Rp"+data[monthKey].StartingBalance.toString());
     
-    infw.textContent = ("Rp"+lastMonth.InFlow.toString());
+    infw.textContent = ("Rp"+data[monthKey].InFlow.toString());
     
-    outfw.textContent = ("Rp"+lastMonth.OutFlow.toString());
+    outfw.textContent = ("Rp"+data[monthKey].OutFlow.toString());
     
-    net.textContent = ("Rp"+(lastMonth.InFlow-lastMonth.OutFlow).toString());
+    net.textContent = ("Rp"+(data[monthKey].InFlow-data[monthKey].OutFlow).toString());
     
-    eB.textContent = ("Rp"+(lastMonth.StartingBalance+(lastMonth.InFlow-lastMonth.OutFlow)).toString())
+    eB.textContent = ("Rp"+(data[monthKey].StartingBalance+(data[monthKey].InFlow-data[monthKey].OutFlow)).toString())
     
-    tfDate.textContent = tlLastMonth.tf.Date;
-    tfData.textContent = tlLastMonth.tf.Data;
+    tfDate.textContent = data[monthKey].tf.Date;
+    tfData.textContent = data[monthKey].tf.Data;
 
-    fnbDate.textContent = tlLastMonth.fnb.Date;
-    fnbData.textContent = tlLastMonth.fnb.Data;
+    fnbDate.textContent = data[monthKey].fnb.Date;
+    fnbData.textContent = data[monthKey].fnb.Data;
 
-    salDate.textContent = tlLastMonth.Salary.Date;
-    salData.textContent = tlLastMonth.Salary.Data;
+    salDate.textContent = data[monthKey].Salary.Date;
+    salData.textContent = data[monthKey].Salary.Data;
+}
 
-}, false);
+//CALL
 
-btn2.addEventListener("click", ()=>{
+btn.addEventListener("click", ()=>{listen(btn,data,"lastMonth")}, false);
 
-    btn2.classList.toggle("clicked");
-    lastbtn.classList.toggle("clicked");
-    lastbtn = btn2
-    
-    sB.textContent = ("Rp"+thisMonth.StartingBalance.toString());
-    
-    infw.textContent = ("Rp"+thisMonth.InFlow.toString());
-    
-    outfw.textContent = ("Rp"+thisMonth.OutFlow.toString());
-    
-    net.textContent = ("Rp"+(thisMonth.InFlow-thisMonth.OutFlow).toString());
-    
-    eB.textContent = ("Rp"+(thisMonth.StartingBalance+(thisMonth.InFlow-thisMonth.OutFlow)).toString())
+btn2.addEventListener("click", ()=>{listen(btn2,data,"thisMonth")}, false);
 
-    tfDate.textContent = tlThisMonth.tf.Date;
-    tfData.textContent = tlThisMonth.tf.Data;
-
-    fnbDate.textContent = tlThisMonth.fnb.Date;
-    fnbData.textContent = tlThisMonth.fnb.Data;
-
-    salDate.textContent = tlThisMonth.Salary.Date;
-    salData.textContent = tlThisMonth.Salary.Data;
-
-}, false);
-
-btn3.addEventListener("click", ()=>{
-
-    btn3.classList.toggle("clicked");
-    lastbtn.classList.toggle("clicked");
-    lastbtn = btn3
-    
-    sB.textContent = ("Rp"+future.StartingBalance.toString());
-    
-    infw.textContent = ("Rp"+future.InFlow.toString());
-    
-    outfw.textContent = ("Rp"+future.OutFlow.toString());
-    
-    net.textContent = ("Rp"+(future.InFlow-future.OutFlow).toString());
-    
-    eB.textContent = ("Rp"+(future.StartingBalance+(future.InFlow-future.OutFlow)).toString())
-
-    tfDate.textContent = tlFuture.tf.Date;
-    tfData.textContent = tlFuture.tf.Data;
-
-    fnbDate.textContent = tlFuture.fnb.Date;
-    fnbData.textContent = tlFuture.fnb.Data;
-
-    salDate.textContent = tlFuture.Salary.Date;
-    salData.textContent = tlFuture.Salary.Data;
-
-}, false);
+btn3.addEventListener("click", ()=>{listen(btn3,data,"future")}, false);
