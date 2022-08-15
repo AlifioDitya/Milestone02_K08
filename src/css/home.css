@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 header {
     margin: 0;
     padding: 0;
@@ -77,6 +79,11 @@ body {
     color: #2691d9;
 }
 
+.section_title{
+    color:#feb027;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -86,3 +93,66 @@ ul {
     bottom: 0;
     width: 100%;
   }
+
+  nav {
+    background: rgba(0,0,0,.88);
+    height: 40px;
+    width: 100%;
+}
+
+.front-logo {
+    color: #FEB027;
+}
+
+.back-logo {
+    color: white;
+}
+
+label.logo {
+    font-size: 32px;
+    line-height: 80px;
+    padding: 0 56px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 24px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav span a{
+    display: inline-block;
+    line-height: 80px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 6px 12px 6px 12px;
+    border-radius: 8px;
+    float: right;
+}
+
+a.active {
+    color: #FEB027;
+    background: #3c3a35;
+}
+
+a:hover {
+    background: #3c3a35;
+    transition: .5s;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 44px;
+    }
+    nav span a {
+        font-size: 16px;
+    }
+}
