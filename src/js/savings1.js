@@ -19,5 +19,3 @@ function addList(e){
     urgentButton.textContent="Urgent?"
       
   }
-
-  
