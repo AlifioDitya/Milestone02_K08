@@ -47,6 +47,21 @@ color: white;
     margin-left: 250px;
 }
 
+.fas{
+    border: 2px solid #ffcd38;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ffcd38;
+    margin-left: 50px;
+    font-family: 'Karla', sans-serif
+}
+
 .button2:hover{
     text-decoration: underline;
     color: #2691d9;
