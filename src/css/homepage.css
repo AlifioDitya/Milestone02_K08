@@ -72,6 +72,30 @@ a:hover {
     display: none;
 }
 
+.button2 {
+    border: none;
+    color: #bfd1ff;
+    background-color: #1b1913;
+    margin-left: 250px;
+}
+
+.button2:hover{
+    text-decoration: underline;
+    color: #2691d9;
+}
+
+.button1 {
+    border: none;
+    color: #bfd1ff;
+    background-color: #1b1913;
+    margin-left: 220px;
+}
+
+.button1:hover{
+    text-decoration: underline;
+    color: #2691d9;
+}
+
 #check {
     display: none;
 }
