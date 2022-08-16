@@ -12,7 +12,7 @@ Milestone #2 Kelompok 8
 - Gevyndo Gunawan (16521136) - Deskripsi solusi, contribute in index.html
 - Oncar Awwalu Rozaqy (16521069) - Homepage/index
 - Naura Valda Prameswari (16521058) - Made savings and planning page, clean up home page.
-- Raynard Tanadi (16521455)
+- Raynard Tanadi (16521455) - Homepage/Index
 - Enrique Alifio Ditya (16521253) - Clean up on all pages. Made navbar and login page.
 
 ## Deskripsi Solusi
