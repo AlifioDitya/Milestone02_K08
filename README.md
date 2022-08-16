@@ -14,7 +14,7 @@ Milestone #2 Kelompok 8
 - Oncar Awwalu Rozaqy (16521069) - Homepage/index
 - Naura Valda Prameswari (16521058) - Made savings and planning page, clean up home page.
 - Raynard Tanadi (16521455) - Homepage/Index
-- Enrique Alifio Ditya (16521253) - Clean up on all pages. Made navbar and login page.
+- Enrique Alifio Ditya (16521253) - Clean up and contribute on all pages. Made navbar and login page.
 
 ## Deskripsi Solusi
 Solusi terhadap permasalahan dibuat dalam bentuk aplikasi web bernama MoneyCheck. MoneyCheck adalah aplikasi yang berfungsi sebagai tools penanganan pencatatan dan pengelolaan keuangan pribadi. Aplikasi ini dimanfaatkan guna menjaga pengeluaran dan juga pemasukan dana pribadi sesuai dengan target yang direncanakan. Di dalamnya terdapat fitur home page sebagai penyambut, history untuk melihat cashflow dalam interval waktu yang sudah lewat, dan terakhir plannings yang terdiri dari fitur budget untuk menangani limit pengeluaran serta fitur savings untuk mencatat target menabung untuk suatu barang yang diinginkan.
