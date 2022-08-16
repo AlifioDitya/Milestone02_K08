@@ -3,6 +3,7 @@ Milestone #2 Kelompok 8
 
 ## Anggota Kelompok dan Pembagian Tugas:
 - Kelvin Rayhan Alkarim (16521496)
+- Priscilla Auleader Napitupulu (16521133) - User flow dan cara pengoperasian.
 - Naufal Syifa Firdaus (16521243) - Css for savings2 page
 - Arifuddin Achmad Subagja (16521308)
 - Jeremya Dharmawan Raharjo (16521268) html and css. Develop homepage. Contribute in index.html and homepage.css.
@@ -22,13 +23,8 @@ Solusi terhadap permasalahan dibuat dalam bentuk aplikasi web bernama MoneyCheck
 - Clone repo ke *machine* pribadi, buka di VSCode.
 - Buka file login.html, gunakan extension Live Server dan klik Go Live di kanan bawah (opsional).
 - Isi username dan password.
-- Explorasi fitur dengan *Top Navigation bar*.
-
-- Clone repo ke machine pribadi, buka di VSCode.
-- Buka file login.html, gunakan extension Live Server dan klik Go Live di kanan bawah (opsional).
-- Isi username dan password.
 - Setelah sign-in, Anda akan dialihkan ke homepage.
-- Explorasi fitur dengan Top Navigation bar.
+- Explorasi fitur dengan *Top Navigation bar*.
 - Pada halaman 'Home', Anda akan melihat balance Anda, transaksi-transaksi terbaru Anda, dan juga grafik spending report.
 - Pada halaman 'History', Anda dapat melihat sejarah transaksi anda dan juga pertumbuhan keuangan Anda.
 - Pada halaman 'Planning', terdapat 2 fitur, yaitu Budget dan Saving Goals. Kedua fitur ini dapat diakses dengan meng-klik text Budget dan Saving Goals itu sendiri.
