@@ -10,7 +10,7 @@ Milestone #2 Kelompok 8
 - Tobias Natalio Sianipar (16521345)
 - Farchan Martha Adji Chandra (16521509)
 - Gevyndo Gunawan (16521136)
-- Oncar Awwalu Rozaqy (16521069)
+- Oncar Awwalu Rozaqy (16521069) - Homepage and index
 - Naura Valda Prameswari (16521058) - Made savings page, clean up home and planning page.
 - Raynard Tanadi (16521455)
 - Enrique Alifio Ditya (16521253) - Clean up on all pages. Made navbar and login page.
