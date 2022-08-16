@@ -155,3 +155,153 @@ section {
     background-size: cover;
     height: calc(100vh - 80px);
 }
+
+.all{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 27%;
+}
+
+h1{
+    color: #FFFFFF;
+    width: 189px;
+    height: 58px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: -0.04em;
+}
+
+h2{
+    width: 328px;
+    height: 58px;
+    
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    /* or 150% */
+    
+    letter-spacing: -0.04em;
+    
+    color: #FEB027;
+}
+
+h3{
+    width: 186px;
+    height: 58px;
+    
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 80px;
+    /* or 257% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    
+    color: #FFFFFF;
+}
+
+.group1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 352px;
+    height: 30px;
+}
+
+.small-txt{
+    width: 200px;
+}
+
+.clickable-txt{
+    color: #66ACFF;
+}
+
+.med-txt{
+    width: 172px;
+    height: 22px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 2px;
+    /* or 8% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #FEB027;
+}
+
+.recent-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    gap: 40px;
+
+    width: 352px;
+    height: 216px;
+
+    background: #312F2A;
+    border-radius: 16px;
+}
+
+.tb2 {
+    padding-left: 25px;
+    text-align: left;
+    color: white;
+}
+
+.td2 {
+    margin-left: auto;
+    width: auto;
+    margin-right: 0px;
+    text-align: right;
+    padding-right: 25px;
+
+}
+
+.td3 {
+    margin-right: auto;
+    text-align: left;
+    margin-left: 0px;
+    width: 80%;    
+    color: #FFFFFF;
+}
+
+.group2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 352px;
+    height: 30px;
+}
+
+.spending-report{
+    position: absolute;
+    width: 412px;
+
+    background: #312F2A;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px 30px 0px 0px;
+}
+
+.spaceUnder{
+    height:50px;
+}
