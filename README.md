@@ -2,13 +2,13 @@
 Milestone #2 Kelompok 8
 
 ## Anggota Kelompok dan Pembagian Tugas:
-- Kelvin Rayhan Alkarim (16521496)
+- Kelvin Rayhan Alkarim (16521496) - Home page
 - Priscilla Auleader Napitupulu (16521133) - User flow dan cara pengoperasian.
 - Naufal Syifa Firdaus (16521243) - Css for savings2 page
-- Arifuddin Achmad Subagja (16521308)
+- Arifuddin Achmad Subagja (16521308) - History page
 - Jeremya Dharmawan Raharjo (16521268) html and css. Develop homepage. Contribute in index.html and homepage.css.
 - Tabitha Permalla (16521076) - Made Budget page, clean up budget, savings, and history page.
-- Tobias Natalio Sianipar (16521345) - history page
+- Tobias Natalio Sianipar (16521345) - History page
 - Farchan Martha Adji Chandra (16521509) - Clean up budget page.
 - Gevyndo Gunawan (16521136) - Deskripsi solusi, contribute in index.html
 - Oncar Awwalu Rozaqy (16521069) - Homepage/index
