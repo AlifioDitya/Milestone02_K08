@@ -7,7 +7,7 @@ Milestone #2 Kelompok 8
 - Arifuddin Achmad Subagja (16521308)
 - Jeremya Dharmawan Raharjo (16521268) html and css. Develop homepage. Contribute in index.html and homepage.css.
 - Tabitha Permalla (16521076) - Made Budget page, clean up budget, savings, and history page.
-- Tobias Natalio Sianipar (16521345)
+- Tobias Natalio Sianipar (16521345) - history page
 - Farchan Martha Adji Chandra (16521509) - Clean up budget page.
 - Gevyndo Gunawan (16521136) - Deskripsi solusi, contribute in index.html
 - Oncar Awwalu Rozaqy (16521069) - Homepage/index
