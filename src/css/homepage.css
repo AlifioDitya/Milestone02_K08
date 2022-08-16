@@ -96,20 +96,6 @@ a:hover {
     color: #2691d9;
 }
 
-h2 {
-    font-size: 30px;
-    color: #bfd1ff;
-    text-align: center; 
-}
-h3 {
-    font-size: 30px;
-    color: #bfd1ff;
-    text-align: center; 
-}
-h4 {
-    text-align: right;
-}
-
 img {
     width: 500px;
     height: auto;
@@ -168,11 +154,4 @@ section {
     background: #1b1913;
     background-size: cover;
     height: calc(100vh - 80px);
-}
-
-.middle_text{
-    color: #bfd1ff;
-    font-size: 300000px;
-    text-align: center;
-    margin-top: 100px;
 }
