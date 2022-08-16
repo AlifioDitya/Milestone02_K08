@@ -9,7 +9,9 @@
 }
 
 body {
-    font-family: "Karla", sans-serif
+    font-family: "Karla", sans-serif;
+    background: #1b1913;
+
 }
 
 nav {
@@ -76,7 +78,8 @@ a:hover {
     border: none;
     color: #bfd1ff;
     background-color: #1b1913;
-    margin-left: 500px;
+    float: right;
+    margin-left: 50px;
 }
 
 .button2:hover{
@@ -88,7 +91,8 @@ a:hover {
     border: none;
     color: #bfd1ff;
     background-color: #1b1913;
-    margin-left: 470px;
+    float: right;
+    margin-left: 1px;
 }
 
 .button1:hover{
@@ -117,6 +121,16 @@ img {
     nav ul li a {
         font-size: 16px;
     }
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    border-radius: 10px;
+    padding-top: 27%;
 }
 
 @media (max-width: 858px) {
