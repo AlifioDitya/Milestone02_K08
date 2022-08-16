@@ -6,12 +6,12 @@ Milestone #2 Kelompok 8
 - Naufal Syifa Firdaus (16521243) - Css for savings2 page
 - Arifuddin Achmad Subagja (16521308)
 - Jeremya Dharmawan Raharjo (16521268)
-- Tabitha Permalla (16521076) - Made Budget page, clean up budget, savings, and history page.
+- Tabitha Permalla (16521076) - Made budget page, clean up budget, savings, and planning page.
 - Tobias Natalio Sianipar (16521345)
-- Farchan Martha Adji Chandra (16521509)
+- Farchan Martha Adji Chandra (16521509) - Clean up budget page.
 - Gevyndo Gunawan (16521136)
 - Oncar Awwalu Rozaqy (16521069) - Homepage and index
-- Naura Valda Prameswari (16521058) - Made savings page, clean up home and planning page.
+- Naura Valda Prameswari (16521058) - Made savings and planning page, clean up home page.
 - Raynard Tanadi (16521455)
 - Enrique Alifio Ditya (16521253) - Clean up on all pages. Made navbar and login page.
 
