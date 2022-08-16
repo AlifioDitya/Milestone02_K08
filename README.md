@@ -14,7 +14,7 @@ Milestone #2 Kelompok 8
 >>>>>>> 954cbbb06225e3c7c23f65c8435e63f38592f572
 - Tobias Natalio Sianipar (16521345)
 - Farchan Martha Adji Chandra (16521509) - Clean up budget page.
-- Gevyndo Gunawan (16521136)
+- Gevyndo Gunawan (16521136) - Deskripsi solusi, contribute in index.html
 - Oncar Awwalu Rozaqy (16521069) - Homepage and index
 - Naura Valda Prameswari (16521058) - Made savings and planning page, clean up home page.
 - Raynard Tanadi (16521455)
