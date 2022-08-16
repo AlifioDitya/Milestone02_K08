@@ -23,3 +23,16 @@ Solusi terhadap permasalahan dibuat dalam bentuk aplikasi web bernama MoneyCheck
 - Buka file login.html, gunakan extension Live Server dan klik Go Live di kanan bawah (opsional).
 - Isi username dan password.
 - Explorasi fitur dengan *Top Navigation bar*.
+
+- Clone repo ke machine pribadi, buka di VSCode.
+- Buka file login.html, gunakan extension Live Server dan klik Go Live di kanan bawah (opsional).
+- Isi username dan password.
+- Setelah sign-in, Anda akan dialihkan ke homepage.
+- Explorasi fitur dengan Top Navigation bar.
+- Pada halaman 'Home', Anda akan melihat balance Anda, transaksi-transaksi terbaru Anda, dan juga grafik spending report.
+- Pada halaman 'History', Anda dapat melihat sejarah transaksi anda dan juga pertumbuhan keuangan Anda.
+- Pada halaman 'Planning', terdapat 2 fitur, yaitu Budget dan Saving Goals. Kedua fitur ini dapat diakses dengan meng-klik text Budget dan Saving Goals itu sendiri.
+- Pada halaman 'Budget', Anda dapat melihat budget serta pengeluaran harian Anda dan juga budget per kategori.
+- Pada halaman 'Savings', Anda dapat melihat semua target tabungan Anda, baik yang masih berjalan, ataupun yang sudah selesai. Pada prototype ini, Anda juga dapat mengakses detail dari savings untuk New Ipad*dengan cara meng-klik tulisan *New Ipad tersebut.
+- Khusus untuk halaman 'Budget' dan juga dua halaman 'Savings', Anda bisa kembali ke halaman sebelumnya dengan meng-klik tanda panah yang terletak di kiri atas halaman.
+- Sedangkan pilihan 'Profile' pada navigation bar akan mengembalikan Anda ke halaman sign-in.
