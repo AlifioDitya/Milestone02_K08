@@ -5,7 +5,7 @@ Milestone #2 Kelompok 8
 - Kelvin Rayhan Alkarim (16521496)
 - Naufal Syifa Firdaus (16521243) - Css for savings2 page
 - Arifuddin Achmad Subagja (16521308)
-- Jeremya Dharmawan Raharjo (16521268)
+- Jeremya Dharmawan Raharjo (16521268) html and css. Develop home.html and home.css. Contribute in index.html and homepage.css.
 - Tabitha Permalla (16521076) - Made Budget page, clean up budget, savings, and history page.
 - Tobias Natalio Sianipar (16521345)
 - Farchan Martha Adji Chandra (16521509)
