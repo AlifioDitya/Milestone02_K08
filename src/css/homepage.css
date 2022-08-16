@@ -166,7 +166,7 @@ section {
     padding-top: 27%;
 }
 
-h1{
+.homeh1{
     color: #FFFFFF;
     width: 189px;
     height: 58px;
@@ -179,7 +179,7 @@ h1{
     letter-spacing: -0.04em;
 }
 
-h2{
+.homeh2{
     width: 328px;
     height: 58px;
     
@@ -195,7 +195,7 @@ h2{
     color: #FEB027;
 }
 
-h3{
+.homeh3{
     width: 186px;
     height: 58px;
     
