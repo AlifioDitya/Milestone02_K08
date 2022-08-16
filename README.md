@@ -3,7 +3,7 @@ Milestone #2 Kelompok 8
 
 ## Anggota Kelompok dan Pembagian Tugas:
 - Kelvin Rayhan Alkarim (16521496)
-- Naufal Syifa Firdaus (16521243)
+- Naufal Syifa Firdaus (16521243) - Css for savings2 page
 - Arifuddin Achmad Subagja (16521308)
 - Jeremya Dharmawan Raharjo (16521268)
 - Tabitha Permalla (16521076) - Made Budget page, clean up budget, savings, and history page.
