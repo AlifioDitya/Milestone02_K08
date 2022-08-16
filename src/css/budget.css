@@ -19,7 +19,7 @@ img {
     transform: translate(-50%, -50%);
     width: 400px;
     border-radius: 10px;
-    padding-top: 27%;
+    padding-top: 31%;
 }
 
 .button1 {
@@ -48,18 +48,11 @@ color: white;
 }
 
 .fas{
-    border: 2px solid #ffcd38;
-    padding: 12px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     color: #ffffff;
-    background-color: #ffcd38;
     margin-left: 50px;
-    font-family: 'Karla', sans-serif
 }
 
 .button2:hover{
@@ -81,7 +74,7 @@ color: white;
 
 
 section {
-    height: 150vh;
+    height: 160vh;
 }
 
 .space {
